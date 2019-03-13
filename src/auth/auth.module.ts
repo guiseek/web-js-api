@@ -14,7 +14,7 @@ import { JwtStrategy } from './jwt.strategy';
     JwtModule.register({
       secretOrPrivateKey: 'secretPosWebJs',
       signOptions: {
-        expiresIn: 300
+        expiresIn: 3600
       }
     }),
     UsersModule
